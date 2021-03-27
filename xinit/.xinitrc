@@ -56,6 +56,8 @@ xrandr --output DP-1 --off --output DP-2 --off --output HDMI-1 --off --output HD
 
 redshift &
 
+dwmblocks &
+
 while true; do
 	dwm >/dev/null 2>&1
 done
