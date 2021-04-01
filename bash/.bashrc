@@ -16,6 +16,9 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" = 1 ]; then
 fi
 
 #aliases
+alias please="sudo"
+alias yeet="sudo pacman -Rns"
+alias ll="ls -al"
 alias shut="sudo shutdown now"
 alias up="amixer -D pulse sset Master 5%+"
 alias down="amixer -D pulse sset Master 5%-"
