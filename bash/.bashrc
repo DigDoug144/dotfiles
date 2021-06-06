@@ -24,3 +24,4 @@ alias up="amixer -D pulse sset Master 5%+"
 alias down="amixer -D pulse sset Master 5%-"
 
 neofetch
+
