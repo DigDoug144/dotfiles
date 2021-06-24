@@ -56,7 +56,6 @@ numlockx &
 nitrogen --restore &
 discord &
 spotify &
-droidmote 2302 password &
 while true; do
 	dwm >/dev/null 2>&1
 done
