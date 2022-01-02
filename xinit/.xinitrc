@@ -51,13 +51,7 @@ fi
 # My crap follows
 
 redshift &
-dwmblocks &
-numlockx &
-nitrogen --restore &
 discord &
-spotify &
-while true; do
-	dwm >/dev/null 2>&1
-done
 
-exec dwm
+export DESKTOP_SESSION=plasma
+exec startplasma-x11
