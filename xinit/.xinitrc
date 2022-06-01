@@ -50,8 +50,8 @@ fi
 
 # My crap follows
 
-redshift &
-discord &
+#redshift &
+#discord &
 
 export DESKTOP_SESSION=plasma
 exec startplasma-x11
