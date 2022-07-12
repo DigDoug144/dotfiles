@@ -50,7 +50,7 @@ fi
 
 # My crap follows
 
-#redshift &
+redshift &
 #discord &
 
 export DESKTOP_SESSION=plasma
