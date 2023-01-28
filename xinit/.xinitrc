@@ -50,8 +50,13 @@ fi
 
 # My crap follows
 
+# Programs run at startup
 redshift &
-#discord &
+discord &
+cantata &
+droidmote 2302 password &
+#------------------------
+
 
 export DESKTOP_SESSION=plasma
 exec startplasma-x11
